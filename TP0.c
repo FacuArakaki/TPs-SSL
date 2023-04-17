@@ -2,9 +2,9 @@
 #include<string.h>
 
 int main() {
-    char Holatodos[]=" Hola a todos";
+    char Holatodos[]=" Hola Mundo!";
     
-    FILE* archivo = fopen("EjerEnClase.txt","wb+");
+    FILE* archivo = fopen("output.txt","wb+");
             fseek(archivo, 0, SEEK_END);
             fprintf(archivo, "%s", Holatodos);
             //fputs("\n",archivo);
