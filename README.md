@@ -12,3 +12,5 @@ Para compilarlo:
 gcc hola.c -o hola
  ```
 
+Todavio no entiendo del todo como se selecciona compilador
+
