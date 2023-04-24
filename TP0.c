@@ -11,7 +11,7 @@ int main() {
         
         fclose(archivo);
 
-    printf("VAmos los pibes");
+    printf("El programa finalizo correctamente");
 
    return 0;
 }
