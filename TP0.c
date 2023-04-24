@@ -7,7 +7,7 @@ int main() {
     FILE* archivo = fopen("output.txt","wb+");
             fseek(archivo, 0, SEEK_END);
             fprintf(archivo, "%s", Holatodos);
-            //fputs("\n",archivo);
+            fputs("\n",archivo);
         
         fclose(archivo);
 
