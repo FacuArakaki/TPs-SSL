@@ -12,5 +12,5 @@ Para compilarlo:
 gcc hola.c -o hola
  ```
 
-Se seleccionó el compilador C11 para realizar los trabajos prácticos
+Se seleccionó la version de c C11 para realizar los trabajos prácticos
 
