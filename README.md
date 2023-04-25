@@ -12,5 +12,5 @@ Para compilarlo:
 gcc hola.c -o hola
  ```
 
-Todavio no entiendo del todo como se selecciona compilador
+Se seleccionó el compilador C11 para realizar los trabajos prácticos
 
