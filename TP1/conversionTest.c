@@ -6,6 +6,7 @@ int main() {
     float lower = -300;
     float upper =  300;
     float step  =   20;
+    //Defino yo lower y upper, aunque tambien podria hacer que el usuario ingrese los valores que quiera. 
 
     assert(lower <= upper); //Si el upper es menor al lower me tira error
 
