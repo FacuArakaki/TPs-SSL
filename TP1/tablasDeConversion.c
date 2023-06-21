@@ -4,14 +4,14 @@
 #include <assert.h>
 
 //PROTOTIPOS
-void printFahrenheitToCelsiusTable(float, float, float);
-void printCelsiusToFahrenheitTable(float, float, float);
+void printFahrenheitToCelsiusTable(double, double, double);
+void printCelsiusToFahrenheitTable(double, double, double);
 
 // MAIN
 int main() {
-    float lower = 0;
-    float upper = 100;
-    float step = 10;
+    double lower = 0;
+    double upper = 100;
+    double step = 10;
 
     assert(lower <= upper);
 
@@ -23,22 +23,22 @@ int main() {
 }
 
 //FUNCIONES 
-void printFahrenheitToCelsiusTable(float lower, float upper, float step) {
+void printFahrenheitToCelsiusTable(double lower, double upper, double step) {
     printf("Fahrenheit\tCelsius\n");
     printf("==========\t=======\n");
 
-    for (float fahr = lower; fahr <= upper; fahr += step) {
-        float celsius = fahrenheitToCelsius(fahr);
+    for (double fahr = lower; fahr <= upper; fahr += step) {
+        double celsius = fahrenheitToCelsius(fahr);
         printf("%6.1f\t\t%6.1f\n", fahr, celsius);
     }
 }
 
-void printCelsiusToFahrenheitTable(float lower, float upper, float step) {
+void printCelsiusToFahrenheitTable(double lower, double upper, double step) {
     printf("Celsius\t\tFahrenheit\n");
     printf("=======\t\t==========\n");
 
-    for (float celsius = lower; celsius <= upper; celsius += step) {
-        float fahr = celsiusToFahrenheit(celsius);
+    for (double celsius = lower; celsius <= upper; celsius += step) {
+        double fahr = celsiusToFahrenheit(celsius);
         printf("%6.1f\t\t%6.1f\n", celsius, fahr);
     }
 }

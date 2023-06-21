@@ -2,7 +2,7 @@
 #ifndef __CONVERSION_H_
 #define __CONVERSION_H_
 
-float fahrenheitToCelsius(float fahrenheit);
-float celsiusToFahrenheit(float celsius);
+double fahrenheitToCelsius(double fahrenheit);
+double celsiusToFahrenheit(double celsius);
 
 #endif
