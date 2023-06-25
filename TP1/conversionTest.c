@@ -13,8 +13,8 @@ int main() {
     printf("Testing Fahrenheit to Celsius conversion:\n");
     for (double fahr = lower; fahr <= upper; fahr += step) {
         double celsius = fahrenheitToCelsius(fahr);
-        printf("%6.1f\t= %6.1f\n", fahr, celsius);
-    }
+        printf("%6.1f\t= %6.1f\n", fahr, celsius); //Al estar laburando con %6.1f estoy limitando fahr o celsius q es son double a que
+    }                                              //solo me aparezca un digito luego del punto. 
 
     printf("\n");
 
