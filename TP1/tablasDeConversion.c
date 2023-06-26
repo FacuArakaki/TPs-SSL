@@ -61,8 +61,9 @@ void printFahrenheitToCelsiusTable(double lower, double upper, double step) {
         double celsius = fahrenheitToCelsius(fahr);
         printf("%6.1lf\t\t%6.1lf\n", fahr, celsius);
     }
+}
 
-void printCelsiusToFahrenheitTable(double lower, double upper, double step) {
+void printCelsiusToFahrenheitTable(double lower, double upper, double step){
     printf("Celsius\t\tFahrenheit\n");
     printf("=======\t\t==========\n");
 
